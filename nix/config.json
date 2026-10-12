@@ -1,0 +1,18 @@
+{
+  "frida": {
+    "repository": "https://github.com/ink-splatters/frida-core.git",
+    "commit": "c7abd66a967361c5801990707be4af9a483f461f",
+    "version": "17.23.3-dev",
+    "gum_commit": "1208a1266e9d28e6c958b6a167b6d944ebefaf47",
+    "deps_version": "20261004",
+    "targets": {
+      "aarch64-darwin": {
+        "runner": "macos-15",
+        "host": "macos-arm64",
+        "go_target": "darwin/arm64",
+        "sdk_hash": "sha256-6PFJljtOQJv3YfYmCnd1k7eOnG/Imvat9TMoPfHnVlY=",
+        "toolchain_hash": "sha256-KoU0H2KlTiJ8JwByxUdjbdgOmujvRenErpcAR1Iq6w8="
+      }
+    }
+  }
+}

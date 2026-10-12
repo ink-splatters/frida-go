@@ -1,0 +1,38 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.a
+
+# Test binary, build with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Local cache
+.gocache
+
+# IDE
+.idea
+.vscode
+debug
+__debug_*
+.env
+
+# Go Work
+*.work
+*.work.sum
+
+# Build outputs
+/.native-build/
+/dist/
+__pycache__/
+.DS_Store
+
+# Nix
+/.direnv/
+/.pre-commit-config.yaml
+/result
