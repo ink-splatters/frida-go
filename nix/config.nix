@@ -36,7 +36,7 @@ in {
 
         go = lib.mkOption {
           type = lib.types.package;
-          default = pkgs.go_1_27;
+          default = pkgs.go_1_26;
         };
       };
     };
